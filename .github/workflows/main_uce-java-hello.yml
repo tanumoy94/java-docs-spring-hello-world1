@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'uce-java-hello'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_90641744DD3E49D082FC2A454CE4C93D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_77781B444ACB428A8FF32E02589D3AF4 }}
           package: '*.jar'
